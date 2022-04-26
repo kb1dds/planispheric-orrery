@@ -1,6 +1,11 @@
 Plans for Planispheric Orrery
 =============================
 
+Solar drive
+-----------
+
+The Sun pointer has a period of 24 hours.
+
 fourth wheel pinion has 12 teeth
 third wheel wheel has 12*3=36 teeth and turns every 3 hours
 third wheel pinion has 12 teeth
@@ -8,12 +13,25 @@ second wheel has 12*4=48 teeth and turns every 12 hours
 second wheel pinion has 12 teeth
 solar wheel has 12*2=24 teeth and turns every 24 hours
 
----
+Sidereal drive
+--------------
+
+The star chart is driven with a period of one sidereal day, a bit less than 23 hours.
 
 sidereal drive with period 1 hour (off fourth wheel above!)
 drive pinon 12 : 37 wheel 3.08333 hours 
 pinion 10 : 27 wheel 8.3245 hours
 pinion 8 : 23 wheel 23.93428 hours (an error of about 127 seconds per year)
 
----
+Lunar drive
+-----------
+
+The solar synodic period of the Moon is 29.530589 days.
+To find the meridianal period of the Moon:
+
+exp(2*pi*i*29.530589*24/24) =  exp(2*pi*i*29.530589*24/T)
+29.530589 - 29.530589*24/T = 1
+29.530589 - 1 = 29.530589 * 24/T
+T=(29.530589*24)/(29.530589-1) = 24.84120 hours
+(Note rough agreement with "The Moon's Westward Motion Across the Sky" in [https://cseligman.com/text/sky/moonmotion.htm]; therein it claims 24.817 hours between meridian crossings.)
 
