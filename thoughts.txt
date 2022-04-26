@@ -1,0 +1,19 @@
+Plans for Planispheric Orrery
+=============================
+
+fourth wheel pinion has 12 teeth
+third wheel wheel has 12*3=36 teeth and turns every 3 hours
+third wheel pinion has 12 teeth
+second wheel has 12*4=48 teeth and turns every 12 hours
+second wheel pinion has 12 teeth
+solar wheel has 12*2=24 teeth and turns every 24 hours
+
+---
+
+sidereal drive with period 1 hour (off fourth wheel above!)
+drive pinon 12 : 37 wheel 3.08333 hours 
+pinion 10 : 27 wheel 8.3245 hours
+pinion 8 : 23 wheel 23.93428 hours (an error of about 127 seconds per year)
+
+---
+
