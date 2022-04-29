@@ -59,7 +59,7 @@ module bs978_pinion_drilled(t,m,hole_diameter){
  * Origin is center of first wheel in train
  * End of train is on x-axis, (train_length,0)
  */
-module four_train(initial_angle,train_length,m,t1,T2,t2,T3,t3,T4,spokes=5,hole_diameter=1, spoke_fraction=0.7){
+module four_train(initial_angle,train_length,m,t1,T2,t2,T3,t3,T4,spokes=5,hole_diameter=1, spoke_fraction=0.75){
 
     /* Wheel separations */
     r1=(bs978_pitch_diameter(t1,m)+bs978_pitch_diameter(T2,m))/2;
