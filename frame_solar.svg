@@ -24,7 +24,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.60934343"
-     inkscape:cx="397.14878"
+     inkscape:cx="397.96934"
      inkscape:cy="560.43929"
      inkscape:window-width="1214"
      inkscape:window-height="960"
@@ -194,5 +194,21 @@
          cy="215.72977"
          r="3.125" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:FreeSerif;-inkscape-font-specification:'FreeSerif, Normal';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="44.001133"
+       y="95.412674"
+       id="text9045"><tspan
+         sodipodi:role="line"
+         id="tspan9043"
+         style="stroke:#0000ff;stroke-width:0.264583"
+         x="44.001133"
+         y="95.412674">Michael Robinson</tspan><tspan
+         sodipodi:role="line"
+         style="stroke:#0000ff;stroke-width:0.264583"
+         x="44.001133"
+         y="104.23212"
+         id="tspan9047">September 2022</tspan></text>
   </g>
 </svg>
