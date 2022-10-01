@@ -20336,14 +20336,14 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.99999996"
      inkscape:cx="376.50002"
-     inkscape:cy="303.50001"
+     inkscape:cy="381.50002"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g75640"
      showgrid="false"
-     inkscape:window-width="1294"
-     inkscape:window-height="704"
-     inkscape:window-x="72"
-     inkscape:window-y="27"
+     inkscape:window-width="1214"
+     inkscape:window-height="960"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:pagecheckerboard="0"
      inkscape:snap-global="false" />
@@ -22344,7 +22344,7 @@
          inkscape:connector-curvature="0"
          style="display:inline;fill:none;stroke:#ff0000;stroke-width:0.228456;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="use320645-8"
-         d="m 461.22749,772.32526 c -4.52774,0 -8.87074,-1.79889 -12.07236,-5.00065 -3.20167,-3.20166 -5.00063,-7.54473 -5.00063,-12.07259 0,-4.52784 1.79896,-8.87087 5.00063,-12.07255 3.20162,-3.20171 7.54462,-5.00069 12.07236,-5.00069 4.52789,0 8.87081,1.79898 12.07246,5.00069 3.20171,3.20168 5.00055,7.54471 5.00055,12.07255 0,4.52786 -1.79884,8.87093 -5.00055,12.07259 -3.20165,3.20176 -7.54457,5.00065 -12.07246,5.00065 z" />
+         d="m 461.22749,772.32527 c -4.52774,0 -8.87074,-1.7989 -12.07236,-5.00066 -3.20167,-3.20165 -5.00063,-7.54473 -5.00063,-12.07259 0,-4.52784 1.79896,-8.87087 5.00063,-12.07256 3.20162,-3.20171 7.54462,-5.00068 12.07236,-5.00068 4.52789,0 8.87081,1.79897 12.07246,5.00068 3.20171,3.20169 5.00055,7.54472 5.00055,12.07256 0,4.52786 -1.79884,8.87094 -5.00055,12.07259 -3.20165,3.20176 -7.54457,5.00066 -12.07246,5.00066 z" />
       <path
          id="use320645-8-6"
          style="display:inline;fill:none;stroke:#ff0000;stroke-width:0.9;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -22574,14 +22574,6 @@
          cx="266.47653"
          cy="-242.01401"
          rx="7.7135429"
-         ry="7.7572675"
-         transform="scale(1,-1)" />
-      <ellipse
-         style="fill:none;stroke:#ff0000;stroke-width:1.2298;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
-         id="path4197-6"
-         cx="461.38306"
-         cy="-207.79683"
-         rx="7.7129192"
          ry="7.7572675"
          transform="scale(1,-1)" />
       <ellipse
@@ -23235,20 +23227,6 @@
          style="fill:#000000;stroke:#0000ff;stroke-width:1.05931"
          x="253.04558"
          y="179.07477">Solar</tspan></text>
-    <ellipse
-       style="display:inline;fill:none;stroke:#ff0000;stroke-width:1.02554;stroke-linecap:round"
-       id="path80777"
-       cx="353.86807"
-       cy="174.65359"
-       rx="83.201248"
-       ry="83.665108" />
-    <ellipse
-       style="display:inline;fill:none;stroke:#ff0000;stroke-width:1.58281;stroke-linecap:round"
-       id="path80925"
-       cx="353.86807"
-       cy="125.02971"
-       rx="25.25482"
-       ry="25.39566" />
     <g
        id="g139601"
        transform="rotate(-90,453.56444,759.9514)">

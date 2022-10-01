@@ -43,8 +43,8 @@
      id="namedview7066"
      showgrid="false"
      inkscape:zoom="3.9111112"
-     inkscape:cx="632.94033"
-     inkscape:cy="492.57101"
+     inkscape:cx="729.33237"
+     inkscape:cy="708.87782"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -15247,12 +15247,6 @@
        cy="740.97943"
        r="4.1175547" />
     <circle
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.13803;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path18138-85-9"
-       cx="553.59027"
-       cy="537.29999"
-       r="17.430984" />
-    <circle
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.14173229;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path18138-72"
        cx="348.52213"
@@ -15324,5 +15318,13 @@
        cx="460.99432"
        cy="199.43816"
        r="4.3920584" />
+    <ellipse
+       style="fill:none;stroke:#ff0000;stroke-width:1.41732;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path4197-36-7-2"
+       cx="553.59027"
+       cy="-537.29999"
+       rx="18.007738"
+       ry="18.109814"
+       transform="scale(1,-1)" />
   </g>
 </svg>
