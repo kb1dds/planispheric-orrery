@@ -1,6 +1,6 @@
-/* This library specifies the assembly for a clock with Aaron Dodd Crane's escapement
+/* This library specifies the assembly for a solar-sideral motion work
  * 
- * Copyright (c) 2022, Michael Robinson
+ * Copyright (c) 2023, Michael Robinson
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -134,20 +134,35 @@ module four_train(initial_angle,train_length,m,t1,T2,t2,T3,t3,T4,spokes=5,hole_d
     translate([data[3].x,data[3].y,0]) rotate(data[3][2]) bs978_driving_wheel_spoked(T4,m,t3,spokes,hole_diameter,spoke_fraction);
 }
 
+/* Solar train: drive arbor at origin, oriented positive z-axis */
+module solar_train(){
+    union(){
+        four_train(initial_angle=80,train_length=50,m=1,t1=12,T2=24,t2=12,T3=36,t3=12,T4=48);
+        scale([1,1,4]) four_train_arbors(initial_angle=80,train_length=50,m=1,t1=12,T2=24,t2=12,T3=36,t3=12,T4=48);
+    }
+}
+
+/* Sidereal train: drive arbor at origin, oriented positive z-axis */
+module sidereal_train(){
+    union(){
+        four_train(initial_angle=70,train_length=50,m=1.25,t1=8,T2=23,t2=10,T3=27,t3=12,T4=37);
+        scale([1,1,4]) four_train_arbors(initial_angle=70,train_length=50,m=1.25,t1=8,T2=23,t2=10,T3=27,t3=12,T4=37);
+    }
+}
+
+/* Motion work: drive arbor at origin, oriented positive z-axis */
+module motion_work(){
+    translate([0,0,2.5]){
+        /* Solar train */
+        #mirror([0,1,0]) mirror([0,0,1]) translate([0,0,1]) solar_train();
+
+        /* Sidereal train */
+        sidereal_train();
+    };
+}
+
 $cut_teeth=true;
 $fn=20;
 
 //projection(cut=true)
-translate([0,0,2.5]){
-/* Solar train */
-#mirror([0,1,0]) mirror([0,0,1]) translate([0,0,1]) union(){
-    four_train(initial_angle=80,train_length=50,m=1,t1=12,T2=24,t2=12,T3=36,t3=12,T4=48);
-    scale([1,1,4]) four_train_arbors(initial_angle=80,train_length=50,m=1,t1=12,T2=24,t2=12,T3=36,t3=12,T4=48);
-}
-
-/* Sidereal train */
-union(){
-    four_train(initial_angle=70,train_length=50,m=1.25,t1=8,T2=23,t2=10,T3=27,t3=12,T4=37);
-    scale([1,1,4]) four_train_arbors(initial_angle=70,train_length=50,m=1.25,t1=8,T2=23,t2=10,T3=27,t3=12,T4=37);
-}
-};
+motion_work();
